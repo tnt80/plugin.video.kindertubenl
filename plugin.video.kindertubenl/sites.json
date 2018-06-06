@@ -1,0 +1,238 @@
+{
+  "sites": [
+    {
+      "name": "Baby",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/baby.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Baby": [
+          {
+            "site_url": "http://www.kindertube.nl/babyfilmpjes.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Baby filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Baby filmpjes van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Peuter",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/peuter.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Peuter": [
+          {
+            "site_url": "http://www.kindertube.nl/peuterfilmpjes.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Peuter filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Peuter filmpjes van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kleuter",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/kleuter.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Kleuter": [
+          {
+            "site_url": "http://www.kindertube.nl/kleuterfilmpjes.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Kleuter filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Kleuter filmpjes van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Schoolgaand",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/schoolgaand.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Schoolgaand": [
+          {
+            "site_url": "http://www.kindertube.nl/schoolgaand.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Schoolgaand filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Schoolgaand filmpjes van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vroeger",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/vroeger.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Liedjes": [
+          {
+            "site_url": "http://www.kindertube.nl/tekenfilms-van-vroeger.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Vroeger filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Vroeger filmpjes van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Muziek",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/muziek.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Muziek": [
+          {
+            "site_url": "http://www.kindertube.nl/muziek-voor-kinderen.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Muziek van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Muziek van http://www.kindertube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sprookjes & Verhaaltjes",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/sprookjes.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Sprookjes & Verhaaltje": [
+          {
+            "site_url": "http://www.kindertube.nl/voorlezen-en-digitale-prentenboeken.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Sprookjes & Verhaaltje van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Sprookjes & Verhaaltje van http://www.kids-tube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Educatief",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/educatief.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Educatief": [
+          {
+            "site_url": "http://www.kindertube.nl/educatieve-filmpjes-voor-kinderen.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Educatief filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Educatief filmpjes van http://www.kids-tube.nl (YouTube)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speelgoed",
+      "poster": "special://home/addons/plugin.video.kindertubenl/artwork/speelgoed.png",
+      "fanart": "special://home/addons/plugin.video.kindertubenl/fanart.jpg",
+      "items": {
+        "Speelgoed": [
+          {
+            "site_url": "http://www.kindertube.nl/speelgoed-filmpjes.html",
+            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "{%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Speelgoed filmpjes van http://www.kindertube.nl (YouTube)"
+          },
+          {
+            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "name": "{%3}",
+            "url": "https://www.youtube.com/watch?v={%1}",
+            "poster": "{%2}",
+            "fanart": "{%2}",
+            "plot": "Speelgoed filmpjes van http://www.kids-tube.nl (YouTube)"
+          }
+        ]
+      }
+    }
+  ]
+}

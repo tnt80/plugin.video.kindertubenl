@@ -8,19 +8,20 @@
         "Baby": [
           {
             "site_url": "http://www.kindertube.nl/babyfilmpjes.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Baby filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Baby filmpjes van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -34,19 +35,20 @@
         "Peuter": [
           {
             "site_url": "http://www.kindertube.nl/peuterfilmpjes.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Peuter filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Peuter filmpjes van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -60,19 +62,20 @@
         "Kleuter": [
           {
             "site_url": "http://www.kindertube.nl/kleuterfilmpjes.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Kleuter filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Kleuter filmpjes van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -86,19 +89,20 @@
         "Schoolgaand": [
           {
             "site_url": "http://www.kindertube.nl/schoolgaand.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Schoolgaand filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Schoolgaand filmpjes van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -112,19 +116,20 @@
         "Liedjes": [
           {
             "site_url": "http://www.kindertube.nl/tekenfilms-van-vroeger.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Vroeger filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Vroeger filmpjes van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -138,19 +143,20 @@
         "Muziek": [
           {
             "site_url": "http://www.kindertube.nl/muziek-voor-kinderen.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Muziek van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Muziek van http://www.kindertube.nl (YouTube)"
           }
         ]
@@ -164,19 +170,20 @@
         "Sprookjes & Verhaaltje": [
           {
             "site_url": "http://www.kindertube.nl/voorlezen-en-digitale-prentenboeken.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Sprookjes & Verhaaltje van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Sprookjes & Verhaaltje van http://www.kids-tube.nl (YouTube)"
           }
         ]
@@ -190,19 +197,20 @@
         "Educatief": [
           {
             "site_url": "http://www.kindertube.nl/educatieve-filmpjes-voor-kinderen.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Educatief filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Educatief filmpjes van http://www.kids-tube.nl (YouTube)"
           }
         ]
@@ -216,19 +224,20 @@
         "Speelgoed": [
           {
             "site_url": "http://www.kindertube.nl/speelgoed-filmpjes.html",
-            "pattern": "<div style{*}<a id=\"{*}\" href=\"{%}\"><img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
-            "name": "{%3}",
-            "url": "{%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "global": "<div class=\"row content\">{%}<div class=\"panel-heading\">",
+            "pattern": "<a href=\"https://{%}/{%}/{%}\"{*}<img src=\"{%}\"{*}</span></a>",
+            "name": "{%2}",
+            "url": "https://{%1}/{%2}/{%3}",
+            "poster": "{%4}",
+            "fanart": "{%4}",
             "plot": "Speelgoed filmpjes van http://www.kindertube.nl (YouTube)"
           },
           {
-            "pattern": "<div style=\"{*}\"><a id=\"{%}\"{*}<img src=\"{%}\"{*}<div style=\"{*}\">{%}</div></div>",
+            "pattern": "<a href={*} data-video=\"{%}\"{*}<img src=\"{%}\"{*}<span class=\"title\">{%}</span></a>",
             "name": "{%3}",
             "url": "https://www.youtube.com/watch?v={%1}",
-            "poster": "{%2}",
-            "fanart": "{%2}",
+            "poster": "https://www.kleutertube.nl/{%2}",
+            "fanart": "https://www.kleutertube.nl/{%2}",
             "plot": "Speelgoed filmpjes van http://www.kids-tube.nl (YouTube)"
           }
         ]
